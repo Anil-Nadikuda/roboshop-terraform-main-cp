@@ -7,7 +7,7 @@ terraform {
   }
 
   backend "s3" {
-    bucket         = "daws14-remote-state"
+    bucket         = "daws14-remotestate"
     key            = "default"
     region         = "us-east-1"
     dynamodb_table = "daws14-locking"
